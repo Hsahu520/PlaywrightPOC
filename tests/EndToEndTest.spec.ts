@@ -45,9 +45,7 @@ test(
         // OPEN WEBSITE
         // ==========================================
 
-        await page.goto(
-            'https://sauce-demo.myshopify.com/'
-        );
+        await page.goto('/');
 
 
         // ==========================================
